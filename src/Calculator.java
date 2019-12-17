@@ -63,7 +63,7 @@ public class Calculator {
 			
 			int second = getSecondValue(sc);
 			
-			result = calculate(first, symbol, second);			
+			result = calculate(result, symbol, second);			
 		}				
 	}
 }
